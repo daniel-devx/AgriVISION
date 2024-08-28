@@ -1,0 +1,470 @@
+::selection {
+    color: blue;
+    background-color: aqua;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(131, 123, 123);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    
+}
+
+/* header starts */
+header {
+    background-color: #1b1d1b;
+    display: flex;
+    position: fixed;
+    top: 0;
+    max-width: 100rem;
+    width: 100%;
+    height: 12%;
+    padding: 2rem 7%;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #ffffff;
+    border-left: 4px solid #00ff1500;
+    border-right: 4px solid #00ff1500;
+    border-bottom: 1px solid #00ff1500;
+    border-top: 3px solid #00ff15;    
+}
+
+html::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgba(2, 63, 0, 0.678);
+}
+
+/* nav-menu */
+.nav-menu {
+    margin-top: -8.4rem;
+    max-width: 100%;
+}
+/* flex */
+.flex {
+    max-width: 100rem;
+    position: relative;
+}
+/* logo section */
+.logo_name {
+    margin-bottom: -20rem;
+    margin-left: -3rem;
+    max-width: 100%;
+    margin-top: -2rem;
+}
+
+.logo img {
+    width: 70px;
+    position: relative;
+    padding-top: -60rem;
+    padding-right: 1rem;
+    border-radius: 40%;
+}
+
+.farm {
+    margin-right: auto;
+    margin-left: 4rem;
+    margin-top: -3.7rem;
+    z-index: 2;
+}
+
+.farm h4 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00ff15;
+    cursor: pointer;
+    font-size: 37px;
+    font-weight: 600;
+    font: bold;
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+.farm h4 a:hover {
+    color: brown;
+}
+
+.farm h4 a strong {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 39px;
+    transition: 0.3s linear;
+}
+
+.farm h4 a:hover strong {
+    color: #00ff15;
+}
+
+/* navbar (navigation bar) */
+.navbar {
+    max-width: 60rem;
+    
+}
+
+.navbar ul .active{
+    color: brown;
+}
+
+.navbar ul a {
+    margin-left: 1.9rem;
+    color: #14ff1f;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 1px solid rgba(3, 158, 11, 0);                 /* this is to add a line to top of selected texts or objects */
+    border-bottom: 1px solid rgba(3, 158, 11, 0);              /* this is to add a line to bottom of selected texts or objects */
+    transition: .1s ease-out;
+}
+/* navbar hover: this is to add animation feature to the object */
+.navbar ul a:hover {
+    transform: scale(1.1);
+    color: brown;            
+    border-bottom: 3px solid rgba(0, 255, 13, 0.616);           /* this is to add an an animated line to the bottom of selected texts or objects */
+}
+
+/* login-register-button */
+#login-register-button {
+    margin-left: 60rem;
+    display: inline-block;
+    background-color: #07c707;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0.5rem .0.9rem rgba(23, 24, 23, 0.486);
+}
+
+#login-register-button h4 {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+
+#login-register-button h4:hover {
+    transform: scale(1.1);
+    color: rgb(0, 26, 255);
+}
+
+#content {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.text {
+    display: flexbox;
+    background-color: rgb(143, 212, 97);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    width: 19rem;
+    height: 6rem;
+    justify-content: space-between;
+}
+
+.text h2 {
+    margin-right: -30rem;
+    max-width: 100%;
+    width: 30rem;
+    font-size: 25px;
+    color: #952323;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    transition: .3s ease-in-out;
+    padding-top: 1.7rem;
+}
+
+.text h2:hover {
+    transform: scale(1);
+    color: #09ff00;
+}
+
+/* inventory */
+.inventory {
+    display: flexbox;
+    background-color: rgb(143, 212, 97);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    width: 17rem;
+    height: 15rem;
+    justify-content: space-between;
+    margin-top: 2.56rem;
+    margin-bottom: -9.9rem;
+}
+
+.inventory p {
+    padding-top: 15px;
+    margin-top: -2.5rem;
+    color: #5b5f5c;
+    font-size: 18px;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.inventory ul {
+    list-style-type: none;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+/* seller/Farmers menu */
+.inventory ul .sell {
+    display: flex;
+    background-color: #464d4700;
+    max-width: 100rem;  
+    max-height: 100%;
+    width: 16.5rem;
+    padding-left: 3rem;
+    margin-bottom: 0.7rem;
+    transition: .3s ease-in-out;
+}
+
+.inventory ul .sell:hover {
+    transform: scale(1);
+    background-color: #5b5f5c62;
+}
+
+.active {
+    color: #00ff15;
+}
+/* buyers menu */
+.inventory ul .buy {
+    display: flex;
+    background-color: #464d4700;
+    max-width: 100rem;  
+    max-height: 100%;
+    width: 16.5rem;
+    padding-left: 3rem;
+    margin-bottom: 0.7rem;
+    transition: .3s ease-in-out;
+}
+
+.inventory ul .buy:hover {
+    transform: scale(1);
+    background-color: #5b5f5c62;
+}
+
+/* transporters menu */
+.inventory ul .transport {
+    display: flex;
+    background-color: #464d4700;
+    max-width: 100rem;  
+    max-height: 100%;
+    width: 16.5rem;
+    padding-left: 3rem;
+    transition: .3s ease-in-out;
+}
+
+.inventory ul .transport:hover {
+    transform: scale(1);
+    background-color: #5b5f5c62;
+}
+
+
+.inventory ul li a {
+    justify-content: space-between;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(34, 32, 32);
+}
+
+
+/* analy */
+.analy {
+    display: flexbox;
+    background-color: rgb(143, 212, 97);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 50%;
+    width: 17rem;
+    height: 25rem;
+    margin-top: -60rem;
+    max-width: 100%;
+    margin-top: 10rem;    
+}
+
+.analy p {
+    padding-top: 15px;
+    margin-top: -2.5rem;
+    color: #5b5f5c;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.analy ul {
+    list-style-type: none;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+/* seller menu */
+.analy ul .sell {
+    display: flex;
+    background-color: #464d4700;
+    max-width: 100rem;  
+    max-height: 100%;
+    width: 16.5rem;
+    padding-left: 3rem;
+    margin-bottom: 0.7rem;
+    transition: .3s ease-in-out;
+}
+
+.analy ul .sell:hover {
+    transform: scale(1);
+    background-color: #5b5f5c62;
+}
+
+/* buyers menu */
+.analy ul .buy {
+    display: flex;
+    background-color: #464d4700;
+    max-width: 100rem;  
+    max-height: 100%;
+    width: 16.5rem;
+    padding-left: 3rem;
+    margin-bottom: 0.7rem;
+    transition: .3s ease-in-out;
+}
+
+.analy ul .buy:hover {
+    transform: scale(1);
+    background-color: #5b5f5c62;
+}
+
+/* transporters menu */
+.analy ul .transport {
+    display: flex;
+    background-color: #464d4700;
+    max-width: 100rem;  
+    max-height: 100%;
+    width: 16.5rem;
+    padding-left: 3rem;
+    transition: .3s ease-in-out;
+}
+
+.analy ul .transport:hover {
+    transform: scale(1);
+    background-color: #5b5f5c62;
+}
+
+
+.analy ul li a {
+    justify-content: space-between;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(34, 32, 32);
+}
+
+
+
+
+
+
+
+
+
+#next {
+    display: flexbox;
+    background-color: rgb(174, 171, 207);   
+    background-position: center;
+    background-size: cover; 
+    height: 46rem;
+    margin-left: 17rem;
+    margin-top: -46rem; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.prod {
+}
+
+.prod span a {
+}
+
+.over {
+    margin-left: 20rem;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    border: none;
+    padding-bottom: 40px;
+    transition: .3s ease-in-out;
+}
+
+.over:hover {
+    transform: scale(1.1);
+    background-color: #952323;
+}
+
+.over small a {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+.pro-man {
+    display: flexbox;
+    background-color: white;
+    width: 30rem;
+    height: 19rem;
+    border-radius: 5%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.stats {
+    display: flexbox;
+    background-color: white;
+    width: 30rem;
+    height: 18rem;
+    margin-top: 1rem;
+    border-radius: 5%;
+    margin-left: 1rem;
+}
+
+.local {
+    display: flexbox;
+    background-color: white;
+    width: 30rem;
+    height: 38rem;
+    margin-top: -38rem;
+    border-radius: 5%;
+    margin-left: 31.8rem;
+}
