@@ -1,0 +1,820 @@
+::selection {
+    color: blue;
+    background-color: aqua;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* header starts */
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 27%;
+    padding: 2rem 7%;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid white;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top: 7px solid #00ff00; 
+    border-left: 4px solid #a03737;
+    border-right: 4px solid #a03737;
+    border-bottom: 1px solid #0004ff00;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(0, 66, 3);
+}
+
+/* flex */
+.flex {
+    margin-top: -6rem;
+    max-width: 100rem;
+    position: relative;
+}
+
+/* logo section */
+.logo_name {
+    margin-top: 1.7rem;
+    margin-bottom: 2rem;
+    margin-left: -3rem;
+    max-width: 100%;
+}
+
+.logo img {
+    width: 70px;
+    position: relative;
+    padding-top: -60rem;
+    padding-right: 1rem;
+    border-radius: 40%;
+}
+
+.farm {
+    margin-right: auto;
+    margin-left: 4rem;
+    margin-top: -3.7rem;
+    z-index: 2;
+}
+
+.farm h4 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00ff15;
+    cursor: pointer;
+    font-size: 37px;
+    font-weight: 600;
+    font: bold;
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+.farm h4 a:hover {
+    color: brown;
+}
+
+.farm h4 a strong {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 39px;
+    transition: 0.3s linear;
+}
+
+.farm h4 a:hover strong {
+    color: #00ff15;
+}
+
+
+.topic {
+    max-width: 22rem;
+    max-height: 5rem;
+    display: inline-block;
+    width: 60rem;
+    height: 35rem;
+    background-color: teal;
+    margin-right: 20rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0.2rem .4rem rgba(1, 70, 70, 0.383);
+}
+
+.topic h1 {
+    padding-left: 10px;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+    font: outline;
+    outline-color: blue;
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;
+}
+
+.topic h1:hover {
+    transform: scale(1.1);
+    color: yellow;
+}
+
+/* login section */
+ 
+#login-forum .flex{
+    display: flex;
+    background:  linear-gradient(rgba(36, 37, 36, 0.445)100%, rgba(63, 59, 59, 0)0%), url("../images/farm\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0rem 1.2rem rgb(3, 97, 8);
+    width: 100%;
+    height: 60rem;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+}
+
+/* first box */
+#login-forum .forum {
+    display: flexbox;
+    background: radial-gradient(rgba(4, 161, 17, 0.335)80%, rgba(44, 192, 18, 0.287)20%), url('../images/JuneMontage\ \(13\).jpg');
+    background-position: left;
+    background-size: cover;
+    height: 37rem;
+    padding: 85px 0 50px;
+    position: relative;
+    top: 20.5rem;
+    left: 3.7rem;
+    max-width: 65rem;
+    flex-basis: 47%;
+    padding: 20px 20px 25px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-right: 4px solid #00ff22;
+    border-left: 4px solid #00ff22;
+}
+
+/* first box heading */
+#login-forum .forum .well {
+    padding-left: 9rem;
+    margin-top: -1rem;
+    padding-bottom: 0;
+}
+
+#login-forum .forum .well p {
+    padding-top: 40px;
+    margin-left: 3.7rem;
+    font-size: 16px;
+    margin-bottom: -1rem;
+    color: #ffffff;
+    font-weight: 550;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* first box logo */
+.logo_n {
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    margin-left: -2rem;
+    max-width: 100%;
+}
+
+.log img {
+    width: 53px;
+    position: relative;
+    padding-top: -70rem;
+    padding-right: 0rem;
+    border-radius: 40%;
+    padding-bottom: 0.2rem;
+}
+
+.atech {
+    margin-right: auto;
+    margin-left: 4rem;
+    margin-top: -3.7rem;
+    z-index: 2;
+}
+
+.atech h4 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00ff15;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 600;
+    font: bold;
+    transition: 0.3s linear;
+}
+
+.atech h4 a:hover {
+    color: brown;
+}
+
+.atech h4 a strong {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    transition: 0.3s linear;
+}
+
+.atech h4 a:hover strong {
+    color: #00ff15;
+}
+
+.log-form {
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+}
+
+.log-form h5 {
+    font-family: cursive;
+    color: #000000;
+    font-size: 18px;
+    margin-left: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+/* password input */
+.logi input {
+    background: linear-gradient(rgba(0, 0, 0, 0)70%, rgba(63, 59, 59, 0)20%), url('../images/pass\ \(3\).png');
+    background-position: left;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 20px;
+    border-bottom: 4px solid #ffffff; 
+    border-top: 1.5px solid #ffffff;
+    border-left: 1.5px solid #ffffff;
+    border-right: 1.5px solid #ffffff;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    transition: .2s ease-in-out;
+}
+
+.logi input:hover {
+    transform: scale(1);
+    background: linear-gradient(rgba(0, 0, 0, 0)70%, rgba(63, 59, 59, 0)20%), url('../images/pass\ \(3\).png');
+    background-position: left;
+    background-size: 40px;
+    background-repeat: no-repeat; 
+}
+
+/* email input */
+.email-user input{
+    background: linear-gradient(rgba(0, 0, 0, 0)70%, rgba(63, 59, 59, 0)20%), url('../images/747959.png');
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 20px;
+    border-bottom: 4px solid #ffffff;
+    border-top: 1.5px solid rgb(255, 255, 255);
+    border-left: 1.5px solid #ffffff;
+    border-right: 1.5px solid #ffffff;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 2rem;
+    margin-bottom: -2rem;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    transition: .2s ease-in-out;
+}
+
+.email-user input:hover {
+    transform: scale(1);
+    background: linear-gradient(rgba(0, 0, 0, 0)70%, rgba(63, 59, 59, 0)20%), url('../images/747959.png');
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+::placeholder {
+    color: rgba(23, 220, 255, 0.472);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    width: 5rem;
+    height: 2.6rem;
+    background: rgb(34, 179, 41);
+    border-bottom-right-radius: 4.0rem;
+    border-bottom-left-radius: 4.0rem;
+    border-top-left-radius: 4.0rem;
+    box-shadow: 0.2rem .2rem rgba(59, 2, 105, 0.308);
+    transition: .3s ease-in-out;
+    margin-top: 20px; 
+    margin-left: 11rem;
+}
+
+.btn:hover {
+    transform: scale(1.2);  
+    background: rgb(255, 255, 255);
+}
+
+.btn a {
+    color: brown;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    transition: .3s ease-in-out;
+}
+
+.btn a:hover {
+    transform: scale(1.1);
+    color: #0004ff;
+}
+
+/* forgotten password */
+.link {
+    max-width: 30rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+
+.link a {
+    font-size: 17px;
+    font-weight: 570;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* password recovery */
+.remb {
+    max-width: 40rem;
+    margin-top: -0.4rem;
+    margin-bottom: 1.3rem;
+    margin-left: 2rem;
+}
+
+.remb a {
+    color: #ffffff;
+    font-size: 16.3px;
+    font-weight: 520;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.remember-me {
+    color: #0004ff;
+    max-height: 1.2rem;
+    max-width: 3rem;
+    margin-left: -0.34rem;
+    object-position: center;  
+    transition: .4s ease-in-out;  
+}
+
+.remember-me:hover {
+    transform: scale(1.2);
+}
+
+.no-account {
+    max-height: 50rem;
+    max-width: 55rem;
+    margin-left: 0.2rem;
+    justify-content: space-between;
+}
+
+.no-account a {
+    color: rgb(155, 65, 65);
+    font-size: 14.3px;
+    font-weight: 650;
+    margin-top: 17px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.no-account a small {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.no-account h4 {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 15rem;
+}
+
+.sign {
+    display: inline-block;
+    background-color: #09ff00;
+    width: 4.6rem;
+    height: 2.2rem;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    max-width: 55rem;
+    transition: .3s ease-in-out;   
+}
+
+.sign:hover {
+    transform: scale(1.1);
+    background-color: #1900ff;
+}
+
+.sign h5 {
+    color: #ffffff; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 650;
+    margin-right: 2.7px;
+    margin-top: 3px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second box */
+.img { 
+    background: radial-gradient(rgba(4, 161, 17, 0.342)80%, rgba(44, 192, 18, 0.26)20%), url('../images/agr\ 4.jpg');
+    max-width: 65rem;
+    display: flexbox;
+    flex-basis: 45.2%;
+    position: relative;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 40px 55px;
+    justify-content: space-between;
+    width: 55rem;
+    height: 37rem;
+    top: 20.5rem;
+    right: 2.6rem;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-right: 4px solid #00ff22;
+    border-left: 4px solid #00ff00;
+}
+
+.img .logo_nam {
+    max-width: 30rem;
+    padding-top: 70px;
+    align-items: top;  
+}
+
+.logo_nam .loge img {
+    top: 3.7rem;
+    left: 13rem;
+    width: 65px;
+    position: relative;
+    padding-right: 1rem;
+    border-radius: 40%;
+}
+
+.agrr {
+    margin-right: auto;
+    margin-left: 7.5rem;
+    margin-top: 2.5rem;
+    z-index: 2;
+}
+
+.agrr h4 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00ff15;
+    cursor: pointer;
+    font-size: 37px;
+    font-weight: 600;
+    font: bold;
+    transition: 0.3s linear;
+}
+
+.agrr h4 a:hover {
+    color: brown;
+}
+
+.agrr h4 a strong {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 39px;
+    transition: 0.3s linear;
+}
+
+.agrr h4 a:hover strong {
+    color: #00ff15;
+}
+
+.logo_nam p {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+}
+
+.img .return {
+    margin-top: 11.4rem;
+    margin-left: 18rem;
+    max-width: 100%;
+    text-align: center;
+    transition: .1s ease-in-out;
+}
+
+.img .return:hover {
+    transform: scale(1);
+    border-left: 3px solid #00ff00;
+    border-right: 3px solid #00ff00;
+    border-radius: 40%;
+}
+
+.img .return a p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    border-bottom: 3px solid #00ff00;
+    text-align: center;    
+    border-radius: 30%;
+}
+
+.img .return a h3 {
+    font-size: 20px;
+    font-weight: 550;
+    color: #00ff00;
+    transition: .3s ease-in-out;
+}
+
+.img .return a h3:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* sign up forum */
+#signup-forum {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#signup-forum .sign-up {
+    background: linear-gradient(rgba(27, 27, 27, 0.616)100%, rgba(63, 59, 59, 0)0%), url("../images/data\ visual\ \(3\).webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100rem;
+    box-shadow: 0rem 1.2rem rgb(98, 212, 22);
+    width: 100%;
+    height: 53rem;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    max-width: 100rem;
+    padding: 200px;
+    padding-top: 14rem;
+    flex-basis: 100%;
+}
+
+.sign-up h2 {
+    font-family: cursive;
+    margin-bottom: 15rem;
+    margin-left: -5rem;
+    color: yellow;
+    font-size: 40px;
+    font-weight: 700;
+    transition: .2s ease-in-out;
+    margin-top: -5rem;
+}
+
+.sign-up h2:hover {
+    transform: scale(1.2);
+    color: #15ff00;
+}
+
+.sign-up .sine {
+    display: flex;
+    /* background: radial-gradient(rgba(4, 161, 17, 0.342)80%, rgba(44, 192, 18, 0.26)20%), url('../images/analytics/image_870x_65c36f0596745.jpg'); */
+    max-width: 65rem;
+    flex-basis: 50%;
+    position: relative;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 50px 55px;
+    justify-content: space-between;
+    width: 55rem;
+    height: 33rem;
+    max-height: 27rem;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-right: 4px solid #00ff22;
+    border-left: 4px solid #00ff00;
+    bottom: 10rem;
+}
+
+.select-forum {
+    margin-left: 19rem;
+    margin-top: -13.4rem;
+    margin-bottom: 10rem;
+}
+
+.select-forum p {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 7px;
+    text-align: center;
+    margin-right: 18.5rem;
+}
+
+#select {
+    padding-left: 10px;
+    color: #09ff00;
+    background-color: #ffffff;
+    border: 2px solid rgba(4, 161, 17, 0.294);
+    width: 18rem;
+    height: 2rem;
+    font-family: cursive;
+    font-size: 17px;
+    transition: .3s ease-in-out;
+}
+
+#select:hover {
+    transform: scale(1.1);
+    color: #7a1f1f;
+    border: 2px solid rgba(161, 4, 4, 0.294);
+}
+
+
+/* first name & user name */
+.sine .first {
+    padding-bottom: -40rem;
+    width: 50rem;
+    max-width: 80rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+.first label {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.first input {
+    padding: 6px;
+    width: 15rem;
+    border-bottom: 3px solid rgb(0, 255, 0);
+    background: transparent;
+    color: white;
+}
+
+/* email & pasword */
+.sine .sec {
+    padding-left: 27rem;
+    margin-top: -9.6rem;
+    padding-bottom: 2rem;
+    width: 50rem;
+    max-width: 80rem;
+    height: 13rem;
+}
+
+.sec label {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sec input {
+    padding: 6px;
+    width: 15rem;
+    border-bottom: 3px solid rgb(0, 255, 0);
+    background: transparent;    
+    color: white;
+}
+
+/* confirm and signup */
+.sine .concreate {
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 2.5rem;
+    color: #000000;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.concreate .confirm {
+    width: 60%;
+    margin-top: -2rem;
+    margin-left: 3.3rem;
+}
+
+.confirm input {
+    width: 35px;
+    height: 20px;
+    margin-left: -2rem;
+}
+
+.confirm span {
+    color: rgb(66, 61, 61);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* signup button */
+.create {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0004ff;
+    margin-left: 31.4rem;
+    margin-bottom: -10rem;
+    width: 17rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: 600; 
+    box-shadow: 0.4rem 0.7rem #29ee067a;  
+    transition: .2s ease-in-out; 
+}
+
+.create:hover {
+    transform: scale(1.2);
+    color: #00ff00;
+}
+
+
+
+
+
+
+footer {
+    background: #252525;
+    padding: 25px 0 20px;
+    max-width: 100%;
+    height: 5rem;
+    max-width: 100%;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20rem;
+}
+
+footer small .footer-heart {
+    font-size: 15px;
+}
+
+footer small a {
+    color: #007bdc;
+}
+
+

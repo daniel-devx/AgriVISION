@@ -600,7 +600,7 @@ html::-webkit-scrollbar-thumb {
 /* dash board */
 .pro-man {
     display: flexbox;
-    background: linear-gradient(rgba(255, 255, 255, 0.712)70%, rgba(255, 255, 255, 0.328)30%), url('/images/analytics/analyisis/transport/transport\ \(4\).webp');
+    background: linear-gradient(rgba(255, 255, 255, 0.712)70%, rgba(255, 255, 255, 0.328)30%), url('/images/transport\ \(4\).webp');
     background-position: center;
     background-size: cover;
     width: 30rem;
