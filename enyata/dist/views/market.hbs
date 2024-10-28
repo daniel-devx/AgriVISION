@@ -1,0 +1,124 @@
+<html lang='en'>
+
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta
+      name='description'
+      content='this is an agricultural marketplace whereby science and technology'
+    />
+    <meta name='keywords' content='agriculture, food, farm, people' />
+    <meta http-equiv='X-UA-Compatible' content='ie=chrome' />
+    <title>Agrivision</title>
+    <link rel='stylesheet' href='/css/market.css' />
+    <link rel='shortcut icon' href='/images/logo.webp' type='image/x-icon' />
+
+    <style>
+      form { background-color: rgb(160, 54, 54); padding: 20px; border-radius:
+      8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); max-width: 47rem; width:
+      200rem; max-height: 30rem; margin-left: 7rem; transition: .3s ease-in-out;
+      } form:hover { transform: scale(1.1); max-width: 50rem; } #image { color:
+      #ffffff; background-color: rgba(23, 214, 16, 0.671); } label { display:
+      block; margin-bottom: 8px; } input, textarea { width: 100%; padding: 8px;
+      margin-bottom: 16px; box-sizing: border-box; border: 1px solid #ccc;
+      border-radius: 4px; } button { background-color: #4caf50; color: #fff;
+      padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; }
+      button:hover { background-color: #45a049; }
+    </style>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div class='nav-menu'>
+        <!-- flex -->
+        <div class='flex'>
+          <!-- logo -->
+          <div class='logo_name'>
+            <div class='logo'>
+              <img
+                src='/images/logo.webp'
+                alt='Agrivision logo'
+                title='Agrivision'
+              />
+            </div>
+            <div class='farm'>
+              <h4>
+                <a href='/'>AGRI<strong>VISION</strong>.
+                </a>
+              </h4>
+            </div>
+          </div>
+          <!-- navbar -->
+          <nav class='navbar' style='margin-left: 22rem; margin-top: -10rem;'>
+            <ul style='border-spacing: 100px;'>
+              <a href='/' title='home'>Home</a>
+              <a href='/about' title='about'>AboutUs</a>
+              <a href='/products' title='Products'>Products</a>
+              <a
+                href='/market'
+                title='Market Form'
+                class='active'
+              >Market-Form</a>
+              <a href='/contact' title='Contact'>Contact</a>
+            </ul>
+          </nav>
+          <a
+            href='/login'
+            id='login-register-button'
+            title='login/register'
+            onclick="alert ('Do you want to login');"
+          >
+            <h4>Login / Register</h4>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- section begins -->
+      <section id='mart-tech'>
+        <h1>Place <small>Products</small> here for<span> PURCHASE</span></h1>
+
+        <div class='input'>
+          <form action='#' method='post' enctype='multipart/form-data'>
+            <label for='image'>Image:</label>
+            <input
+              type='file'
+              id='image'
+              name='image'
+              accept='image/*'
+              required
+            />
+
+            <label for='itemName'>Item Name:</label>
+            <input type='text' id='itemName' name='itemName' required />
+
+            <label for='description'>Description:</label>
+            <textarea
+              id='description'
+              name='description'
+              rows='3'
+              required
+            ></textarea>
+
+            <label for='cost'>Cost:</label>
+            <input type='text' id='cost' name='cost' required />
+
+            <button type='submit'>Submit</button>
+          </form>
+        </div>
+
+      </section>
+    </main>
+    <!--
+     <footer>
+        <div class="foot">
+            <small>Copyright &copy; 2024 All rights reserved | Agrivision is made with <span class="footer-heart">&#9829;</span> by the <a href="https://colorlib.com" target="_blank">developers</a>.</small>
+
+        </div>
+    </footer> -->
+
+  </body>
+</html>

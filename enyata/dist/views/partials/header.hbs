@@ -1,0 +1,38 @@
+<header class="font-sans border h-[70px] fixed top-0 left-0 z-40 bg-white w-screen">
+    <div class="container flex items-center  justify-between p-4 ">
+        {{!-- Logo --}}
+        <a href="/" class='flex items-center gap-2'>
+            <div class='logo'>
+                <img src='/images/logo.webp' alt='Agrivision logo' title='Agrivision' class='w-8 h-8' />
+            </div>
+            <div class='text-3xl'>
+                <p>AGRI <span class="text-primary font-bold">VISION</span>.</p>
+            </div>
+        </>
+        {{!-- Navbar --}}
+        <nav class='navbar'>
+            <ul class="flex items-center gap-4">
+                <li>
+                    <a href='/' title='home' class='text-underline hover:text-primary border-b border-b-primary text-primary uppercase'>Home</a>
+                </li>
+                <li>
+                    <a href='/about' title='about' class="hover:text-primary border-b border-b-transparent uppercase">AboutUs</a>
+                </li>
+                <li>
+                    <a href='/product' title='Products' class="hover:text-primary border-b border-b-transparent uppercase">Products</a>
+                </li>
+                <li>
+                    <a href='/market' title='Market Form' class="hover:text-primary border-b border-b-transparent uppercase">Market-Form</a>
+                </li>
+                <li>
+                    <a href='/contact' title='Contact' class="hover:text-primary border-b border-b-transparent uppercase">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        {{!-- Register --}}
+        <div>
+            <a href='/register' title='Register' class='bg-primary rounded-xl text-white px-4 py-2'>Register</a>
+        </div>
+    </div>
+</header>

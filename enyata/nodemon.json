@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "**/*.hbs",
+        "**/*.html",
+        "**/*.ts",
+        "**/*.js"
+    ],
+    "ext": "hbs, html, ts, js"
+}
